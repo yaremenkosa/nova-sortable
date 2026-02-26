@@ -46,12 +46,10 @@
 </template>
 
 <script>
-import ReordersResources from '../mixins/ReordersResources';
 
 export default {
   name: 'ResourceTableHeader',
 
-  mixins: [ReordersResources],
 
   emits: ['order', 'reset-order-by'],
 
