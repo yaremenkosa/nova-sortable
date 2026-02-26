@@ -1,5 +1,5 @@
 {
-  "name": "outl1ne/nova-sortable",
+  "name": "yaremenkosa/nova-sortable",
   "description": "This Laravel Nova package allows you to reorder models in a Nova resource's index view using drag & drop.",
   "keywords": [
     "laravel",
