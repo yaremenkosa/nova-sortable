@@ -26,8 +26,8 @@
         :via-resource-id="viaResourceId"
         :via-relationship="viaRelationship"
         :resource-name="resourceName"
-        @moveToEnd="$emit('moveToEnd')"
-        @moveToStart="$emit('moveToStart')"
+        @moveToEnd="$emit('moveToEnd', resource)"
+        @moveToStart="$emit('moveToStart', resource)"
       >
         <Checkbox
           v-if="shouldShowCheckboxes"

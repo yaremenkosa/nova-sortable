@@ -22,7 +22,15 @@ export default {
             this.fakeResources = [...this.resources];
         }
     },
-
+    watch: {
+        resources: {
+            handler(newVal) {
+                if (Array.isArray(newVal)) {
+                    this.fakeResources = [...newVal];
+                }
+            },
+        },
+    },
     methods: {
         async updateOrder(event) {
             this.reorderLoading = true;
